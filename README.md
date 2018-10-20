@@ -7,7 +7,7 @@
 npm i oss-uploader -S
 
 # 使用与配置
-const uploadForOSS = require('oss-uploader');
+const uploadForOSS = require('oss-uploader')
 const uploadPath = '此处为要上传的文件路径，文件夹或单个文件'
 
 uploadForOSS(uploadPath, {
@@ -15,4 +15,4 @@ uploadForOSS(uploadPath, {
     accessKeyId: '',
     accessKeySecret: '',
     bucket: ''
-});
+})

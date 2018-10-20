@@ -1,6 +1,6 @@
 {
   "name": "oss-uploader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "upload.js",
   "description": "批量上传至阿里云OSS",
   "author": "Jone <gggghh11@163.com>",
