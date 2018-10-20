@@ -1,0 +1,26 @@
+{
+  "name": "oss-uploader",
+  "version": "1.0.1",
+  "main": "upload.js",
+  "description": "批量上传至阿里云OSS",
+  "author": "Jone <gggghh11@163.com>",
+  "keywords": [
+    "oss-uploader",
+    "upload-oss",
+    "oss-upload",
+    "vue-oss-upload",
+    "webpack-oss-upload"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.0.1",
+    "single-line-log": "^1.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jone-g/oss-uploader.git"
+  }
+}
