@@ -7,7 +7,7 @@ function scanDir(path) {
   const that = this;
   if (fs.statSync(path).isFile()) {
     return files.push({
-      fileName: path.replace(new RegExp(pathReg, 'g'),  ''),
+      fileName: path.replace(pathReg,  ''),
       filePath: path
     })
   }
